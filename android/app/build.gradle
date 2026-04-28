@@ -1,0 +1,13 @@
+flavorDimensions "app"
+
+productFlavors {
+    dev {
+        dimension "app"
+        applicationIdSuffix ".dev"
+        versionNameSuffix "-dev"
+    }
+
+    prod {
+        dimension "app"
+    }
+}
